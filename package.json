@@ -1,0 +1,34 @@
+{
+  "name": "blast-radius",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Zero-dependency AST dependency radar. Maps the blast radius of code modifications across JS/TS codebases.",
+  "main": "src/graph.js",
+  "bin": {
+    "blastradius": "./bin/blastradius.js",
+    "blast-radius": "./bin/blastradius.js"
+  },
+  "scripts": {
+    "start": "node bin/blastradius.js",
+    "test": "node tests/test.js",
+    "demo": "node bin/blastradius.js demo"
+  },
+  "keywords": [
+    "blast-radius",
+    "dependency-graph",
+    "ast",
+    "cli",
+    "git-diff",
+    "impact-analysis",
+    "typescript",
+    "javascript",
+    "code-analysis",
+    "static-analysis",
+    "developer-tools"
+  ],
+  "author": "syn <ccoreyadam@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
